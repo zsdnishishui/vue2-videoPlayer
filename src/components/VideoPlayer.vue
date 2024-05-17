@@ -50,7 +50,7 @@
       //   this.playerOptions.sources[0].src = "http://192.168.56.104:9000/test/TM-20230329091129-760405287-recording-1.mp4"
       // })
       // this.playerOptions.sources[0].src = require('../assets/***.mp4'),
-      this.playerOptions.sources[0].src = "/api/test/TM-20230329091129-760405287-recording-1.mp4",
+      this.playerOptions.sources[0].src = "http://127.0.0.1:9090/video/test.mp4",
       this.playerOptions.sources[0].type = "video/mp4"
     },
    

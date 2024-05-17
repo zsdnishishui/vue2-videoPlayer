@@ -30,8 +30,8 @@ export default {
 				sources: [
 					{
 						type: 'application/x-mpegURL',
-						// src: 'https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8' //你的m3u8地址（必填）
-            src: '/api/test/test_m3u8/TM-20230329091129-760405287-recording-3.m3u8'
+						src: 'http://127.0.0.1:9090/video/test23u8.m3u8' //你的m3u8地址（必填）
+            // src: '/api/test/test_m3u8/TM-20230329091129-760405287-recording-3.m3u8'
 					}
 				],
 				poster: '', //你的封面地址
